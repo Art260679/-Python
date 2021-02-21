@@ -21,7 +21,7 @@ for i in lst:
         num += int(j)
     # найдем сумму чисел, которые делятся на 7 без остатка
     if num % 7 == 0:
-        s += num
+        s += i
 print(s)
 # К каждому числу списка прибавим 17
 for i in range(len(lst)):
@@ -34,5 +34,5 @@ for i in lst:
     for j in n:
         num2 += int(j)
     if num2 % 7 == 0:
-        s2 += num2
+        s2 += i
 print(s2)
